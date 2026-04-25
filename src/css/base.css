@@ -76,9 +76,15 @@ body {
   padding: 40px;
 }
 
+.main-title {
+  margin-bottom: 40px;
+}
+
 .controls {
   display: flex;
   gap: 8px;
+  width: 346px;
+  margin: 0 auto;
   margin-bottom: 32px;
 }
 
@@ -112,6 +118,8 @@ button[data-start]:not(:disabled) {
 .timer {
   display: flex;
   gap: 24px;
+  width: 346px;
+  margin: 0 auto;
 }
 
 .field {
